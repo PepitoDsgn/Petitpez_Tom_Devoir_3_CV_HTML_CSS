@@ -59,15 +59,15 @@
 }
 
 @font-face {
-    font-family: Raleway;
-    src: url(https://fonts.google.com/specimen/Raleway);
+font-family: Raleway;
+src: url(https://fonts.google.com/specimen/Raleway);
 }
 
 
-h3, h4, h5, h6 {
-    font-family: Lato, sans-serif;
-    color: #17abb3;
-    border-bottom: 1px  #e3e3e3;
+h3 {
+font-family: Lato, sans-serif;
+color: #17abb3;
+border-bottom: 1px  #e3e3e3;
 }
 
 * {
@@ -96,12 +96,21 @@ align-items:center;
 gap:350px;
 }
 
+.photo-container {
+width: 150px;
+height: 150px;
+border-radius: 100%;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+border-style: solid;
+}
+
 .photo {
-width:140px;
-height:140px;
-border-radius:50%;
-border:5px solid white;
-margin-right:40px;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 .header-text h1 {
@@ -147,13 +156,34 @@ padding-bottom:5px;
 }
 
 .sidebar ul {
-list-style:none;
+list-style: square;
 margin-bottom:20px;
 }
 
 .sidebar li {
 margin-bottom:8px;
 font-size:15px;
+}
+
+.language {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+
+.language ul {
+width: 50%;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#right {
+text-align: right;
+}
+
+.skills li {
+list-style: none;
 }
 
 .content {
@@ -176,8 +206,12 @@ margin-bottom:10px;
 font-size:15px;
 }
 
-#subtitle {
+.subtitle {
 font-style: italic;
+}
+
+#date {
+color: #17abb3;
 }
 
 .row {
@@ -199,6 +233,7 @@ font-size:14px;
 
 .col li {
 list-style: none;
+text-decoration: none;
 }
 
 .adress {
@@ -219,6 +254,7 @@ margin-top:20px;
 margin-bottom:10px;
 }
 
-.icons span {
-margin:0 15px;
+a {
+text-decoration: none;
+color: #ffffff;
 }
