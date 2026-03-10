@@ -69,4 +69,36 @@ h1, h2, h3, h4, h5, h6 {
 
 * {
     font-family: Raleway, sans-serif;
+    border: 1px solid black;
+}
+
+body {
+    width: 1160px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+aside {
+    width: 25%;
+}
+
+section {
+    width: 75%;
+    display: wrap;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: 
 }
