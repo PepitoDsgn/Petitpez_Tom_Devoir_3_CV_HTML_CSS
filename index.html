@@ -11,29 +11,30 @@
     <title>Mon CV</title>
 </head>
 <body>
-    <header>
+    
+    <header class="header">
        <nav>
         
-        <div>
-            Photo de profil
+        <div class="photo">
+            
         </div>
 
         <div>
-            <div>
-                <h1>Tom Petitpez</h1>
-                <h2>Développeur Web et web mobile</h2>
+            <div class="header-text">
+                <h1 class="Name">Tom Petitpez</h1>
+                <h2 class="Job">Développeur Web et web mobile</h2>
             </div>
 
-            <div>
-                <address>
-                    <div>
+            <div class="contact">
+                <address class="adress">
+                    <div class="col">
                         <ul>
                             <li>Mail</li>
                             <li>Téléphone</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div class="col">
                         <ul>
                             <li>Adresse</li>
                             <li>Permis B</li>
@@ -47,34 +48,20 @@
         </nav>
     </header>
 
-    <main>
-
-    <div>
-        <div>
-            <aside>
+    <main class="layout">
+        
+        <aside class="sidebar">
             <h3>Compétences</h3>
 
-                <div>
-                    <ul>
+                    <ul class="skills">
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>JavaScript</li>
                         <li>React</li>
                         <li>Node.js</li>
                     </ul>
-                </div>
 
-                <div>
-                    <ul>
-                        <li>XXXXX</li>
-                        <li>XXXXX</li>
-                        <li>XXXXX</li>
-                        <li>XXXXX</li>
-                        <li>XXXXX</li>
-                    </ul>
-                </div>
-
-                <h3>Langues</h3>
+            <h3>Langues</h3>
 
                 <div>
                     <ul>
@@ -92,7 +79,7 @@
                     </ul>
                 </div>
 
-                <h3>Qualités</h3>
+            <h3>Qualités</h3>
 
                     <ul>
                         <li>Organisation</li>
@@ -101,7 +88,7 @@
                         <li>Adaptabilité</li>
                     </ul>
 
-                <h3>Centres d'intérêt</h3>
+            <h3>Centres d'intérêt</h3>
 
                     <ul>
                         <li>Technologie</li>
@@ -110,78 +97,78 @@
                         <li>Photo - Vidéo</li>
                     </ul>
             
-            </aside>
-        </div>
+        </aside>
 
-        <div>
-                <section>
-                    <h3>Profil</h3>
-                    <div>
+            <section class="content">
+                <h3>Profil</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore at vitae minus nam, ratione sequi velit? Quam culpa quisquam nam veniam, molestias cupiditate non, vel nisi est quod voluptates.</p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae blanditiis corrupti eaque assumenda error quo maiores nostrum quae, doloribus tenetur corporis officiis ducimus sint voluptate fuga dolor reiciendis exercitationem. Officia.</p>
-                    </div>
-                </section>
+                
+                <h3>Formation</h3>
 
-                <section>
-                    <h3>Formation</h3>
+                <div class="row">
                     <div>
                         <h4>Titre Professionnel DWWM</h4>
-                        <span>Centre Européen de Formation</span>
+                        <span id="subtitle">Centre Européen de Formation</span>
                     </div>
-                    <div>
-                        <span>2023-2024</span>
-                    </div>
+                    
+                    <span>2023-2024</span>
+                </div>
 
+                <div class="row">
                     <div>
                         <h4>Remise a Niveau - Metiers du numérique</h4>
-                        <span>Lycée de la ville</span>
+                        <span id="subtitle">Lycée de la ville</span>
                     </div>
-                    <div>
-                        <span>Juin 2023 - Septembre 2023</span>
-                    </div>
+                    
+                    <span>Juin 2023 - Septembre 2023</span>
+                </div>
 
+                <div class="row">
                     <div>
                         <h4>Baccalauréat</h4>
-                        <span>Lycée de la ville</span>
+                        <span id="subtitle">Lycée de la ville</span>
                     </div>
-                    <div>
-                        <span>2016</span>
-                    </div>
-                </section>
+                    
+                    <span>2016</span>
+                </div>
 
-                <section>
-                    <h3>Expérience Professionnelle</h3>
+                <h3>Expérience Professionnelle</h3>
+
+                <div class="row">
                     <div>
                         <h4>Développeur Web</h4>
-                        <span>Entreprise XYZ</span>
-                    </div>
-                    <div>
-                        <span>Juin 2023 - Août 2023</span>
+                        <span id="subtitle">Entreprise XYZ</span>
                     </div>
 
+                    <span>Juin 2023 - Août 2023</span>
+                </div>
+
+                <div class="row">
                     <div>
                         <h4>Assistant Technique</h4>
-                        <span>Entreprise ABC</span>
+                        <span id="subtitle">Entreprise ABC</span>
                     </div>
-                    <div>
-                        <span>Juin 2022 - Août 2022</span>
-                    </div>
-
+                
+                    <span>Juin 2022 - Août 2022</span>
+                </div>
+                
+                <div class="row">
                     <div>
                         <h4>Vendeur</h4>
-                        <span>Magasin DEF</span>
+                        <span id="subtitle">Magasin DEF</span>
                     </div>
-                    <div>
-                        <span>Septembre 2021 - Décembre 2021</span>
-                    </div>
-                </section>
 
-        </div>
-    </div>
+                    <span>Septembre 2021 - Décembre 2021</span>
+                </div>
+
+            </section>
+
+    </main>
 
     <footer>
 
-        <div>
+        <div class="icons">
             <icon><a href="https://www.linkedin.com/in/tompetitpez"></a>LinkedIn</icon>
             <icon><a href="https://github.com/tompetitpez"></a>GitHub</icon>
             <icon><a href="https://twitter.com/tompetitpez"></a>Twitter</icon>
